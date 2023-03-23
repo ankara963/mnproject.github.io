@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Destinations</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+        rel="stylesheet" 
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300&display=swap');
+            p{
+                font-size: 20px;
+            }
+
+            body{
+                font-family: 'Satisfy', cursive;
+                
+                
+                
+            
+                
+                
+            }
+
+            #cnts{
+            width:100%;
+            height: auto;
+            margin: 0 auto;
+            }
+
+        
+
+            #crsl{
+                margin:0 auto;
+            }
+
+            #crsl img{
+                width:100%;
+                height: 600px;
+                border-radius: 25px 25px 25px 25px;
+            
+            }
+
+            #rows{
+                margin: 0 auto;
+                margin-bottom:2%;
+            }
+
+            #destinations{
+                margin: 0 auto;
+                background-color: rgba(183, 187, 187, 0.192) ;
+                
+            }
+
+            .bigbg{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                min-width: 100%; 
+                min-height: 100%;
+                z-index: -1;
+                filter:blur(3px);
+            }
+
+
+            #hd{
+            text-shadow: 3px 3px black;
+            }
+
+           #txt{
+            text-shadow: 1px 1px black;
+            }
+
+           #btm img{
+            border-radius: 15px 15px 15px 15px;
+           }
+
+           #btm{
+            background-color:rgba(183, 187, 187, 0.192);
+            
+           }
+           
+           #crsl2 img{
+            width: 100%;
+            height: 300px;
+           }
+
+           #ftr img{
+            width: 350px;
+            height: 300px;
+           margin-left: 30%;
+           }
+
+          
+           
+        </style>
+    </head>
+    <body>
+        <img src="bigbg.jpg" class="bigbg">
+            <!---Navbar---------------------------------------------------------------------------------->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid" >
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Destination.html">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="FAQ.html">FAQ's</a></li>
+                        <li><a class="dropdown-item" href="Contact Us.html">Contact Us</a></li>
+                        
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <!------------------------------------------------------------------------------------------->    
+            <!----Main content--------------------------------------------------------------------------->
+        <div class="container-sm" id="cnts">
+                
+            <!--Header------------------------------------------------------------------------------->
+            <div class="container-xxl">
+                    <div class="container-fluid" id="hd" >
+                    <p style="font-weight: 900; font-size: 70px; margin-bottom:2%; color:rgb(253, 26, 26);">EXPLORE</p>
+                    <p style="font-weight: 900; font-size: 100px; margin-bottom:2%; color:rgb(255, 255, 255);">PALAWAN ISLAND</p> 
+                    </div>
+                    <br>
+                    <div class="container" style="background-color:#458a78d0; border-radius: 15px 15px 15px 15px;">
+                    <h3 id="txt" style="color:#fff; font-weight: 700;">About Palawan Island</h2>
+                    <h4  id="txt" style="color:#fff; font-weight: 400;">Palawan is a slice of heaven, a sliver of an island that teems with exotic wildlife, quaint fishing villages, and UNESCO World Heritage Sites. Wave hello to endangered animals at the Calauit Game Preserve and Wildlife Sanctuary or explore the Japanese shipwrecks of Coron Island, regarded as one of the best dive sites in the world. A guided boat tour of the Puerto Princesa Underground River will take your breath away.</h3>
+                    </div>
+                    <br>
+            </div>
+            <!--Header line end----------------------------------------------------------------------------->
+
+
+
+            <!--Cards---------------------------------------------------------------------------->
+                <div  class="container-xl"id="destinations" style="margin-top: 2%;">
+                
+                <h2 style="font-size: 50px; font-weight: 700;">Check out this exciting places!</h2>
+                <br>
+                <div class="row" id="rows">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="El Nido.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">El Nido</h5>
+                            <p class="card-text"> El Nido is known as the Philippines' last frontier, and if you're looking for magnificent beaches in an unspoiled setting, it's a perfect place for you to vacation.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="El Nido page.html" class="btn btn-primary">Explore More!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Underground.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Puerto Princesa City</h5>
+                            <p class="card-text">Puerto Princesa is a coastal city on Palawan Island in the western Philippines. It's a base for boat trips through the massive limestone caves and underground river of the biodiverse Puerto Princesa Subterranean River National Park</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="Puerto Princesa Page.html" class="btn btn-primary">Explore More!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="San Vicente.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">San Vicente</h5>
+                            <p class="card-text">Discover the beauty of San Vicente, an underrated Palawan destination that is home to the longest beach in the Philippines.  Read on to learn everything you need to know about planning a trip here.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="San Vicente Page.html" class="btn btn-primary">Explore More!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="rows">
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Coron.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Coron</h5>
+                            <p class="card-text">Coron is a fantastic base for adventure, especially for underwater explorers seeking to dive amid the Japanese shipwrecks of the 1940s.</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <a href="Coron Page.html" class="btn btn-primary">Explore More!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Taytay.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Taytay</h5>
+                            <p class="card-text">Unknown to most travelers, Taytay boats some beautiful islands with clear blue waters, which make it a popular destination for snorkeling and diving
+
+                                Taytay town, known as “Estrella Del Norte“, which means “The Star of the North” in English, is one of the oldest town and the first capital of the province.</p>
+                            <a href="Taytay Page.html" class="btn btn-primary">Explore More!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="Estrella Falls.jfif" class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">Narra</h5>
+                            <p class="card-text">Narra is one of the Palawan’s most loved eco-destinations thanks to its stunning natural landscapes, beautiful mountains and exotic species of flora. Narra also boasts some secluded and unspoiled beaches and pristine islands</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>    
+                            <a href="Narra Page.html" class="btn btn-primary">Explore More!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+              
+
+                
+                </div>
+                <br>
+            <!--Card line end--------------------------------------------------------------->
+            <!----Bottom contents------------------------------------------------------------------------>    
+            <div class="container-md" style="text-align: center;">
+             <h1 id="txtx" style="font-weight: 900; font-size: 70px; margin-bottom: 2%;">Its more fun in PALAWAN!!</h1>
+             <h3>Learn more about the things you can in PALAWAN why settle for less when you can do more!</h3>
+            </div>
+            <br>
+             <!--Carousel---------------------------------------------------------------------------------->
+            <div  class="container-md" id="crsl">
+                
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Kayaking.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img22.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="snorkeling.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img11.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div><!--crsl closing-->
+            <!--Carousel line end------------------------------------------------------------------------->
+            <div class="container-md">
+            <br>
+            <br>
+            <h1 style= "font-size: 60px; font-weight: 900;margin-top: 2%;margin-bottom: 2%;">Things to do in PALAWAN!</h1>
+            <h3>Here are some of the famous activities here in PALAWAN</h3>
+            </div>
+            <br>
+            <br>
+            <!---Other Contents--------------------------------------------------------------------------->
+            <div class="container-md" id="btm">
+                <hr>
+                    <h1  style="font-size: 50px; font-weight: 700;">Hiking</h1>
+                    <h3>Ready to check out the best trails in Palawan for hiking, mountain biking, climbing or other outdoor activities?</h3>
+                    <div class="row" style="margin-top: 1%;">
+                        <div class="col-6">
+                            <div class="container-md" style="margin-top:15%;">
+                                <img width="100%" src="mt.tapyas.jfif" alt="">
+                            </div>
+                        </div>
+                        <div class="col" style="margin-top: 10%;">
+                            <div class="container-md">
+                                <h2>Mount Tapyas</h2>
+                                <p>Coron Palawan</p>
+                                <br>
+                                <p>This is a nice place to see the City of Coron and its surrounding islands
+                                    You will see the island in 360 degrees and feel the morning breeze.
+                                    <a href="https://www.alltrails.com/philippines/palawan">Click here to check out more details</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top: 2%;">
+                        <div class="col"style="margin-top: 10%;">
+                            <div class="container-md">
+                                <h2>Mount Magarwak</h2>
+                                <p>Puerto Princesa City Palawan</p>
+                                <br>
+                                <p>You wont expect something like this in the city but Puerto Princesa dont just offer beaches it also have beautiful hiking spots like this
+                                    <a href="https://www.alltrails.com/philippines/palawan">Click here to check out more details</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="container-md" style="margin-top: 15%;">
+                                <img width="100%" src="magarwak.jfif" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <br>
+                    <br>
+                <h1 id="txtx" style="font-size: 50px; font-weight: 700;">Island Hopping</h1>
+                <h3>This is where Island of PALAWAN is know of Island and beaches here are some of the famous places</h3>
+                 <br> 
+                 <h1 style="font-size: 50px;">El Nido</h1>
+                 <img src="el nido1.jpg" alt="" style="margin-top: 2%; width: 100%; height: 500px;">
+                <br>
+                <br>
+                 <div class="row">
+                    <div class="col">
+                        <div class="container-md">
+                            <p>El Nido is known for its stunning lagoons,
+                                white sand beaches, rocky islets, 
+                                towering limestone cliffs, 
+                                and glasslike waters teeming with marine life. 
+                                The island has earned nothing but praises from visitors, 
+                                and numerous accolades of being one the best island and 
+                                beach destinations in the world.</p>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container-md" id="crsl2">
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="El Nido.jfif" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="hoping1.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="hoping2.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <h1 style="font-size: 50px;">Honda Bay, Puerto Princesa</h1>
+                <img src="Honda bay4.jpg" alt="" style="margin-top: 2%; width: 100%; height: 500px;">
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <div class="container-md">
+                            <div class="container-md" id="crsl2">
+                                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <img src="Honda bay1.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="Hond bay3.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="Honda bay2.jpg" class="d-block w-100" alt="...">
+                                      </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="container-md">
+                            <p>Puerto Princesa is also packed with beautiful islands and beaches that you can visit,</p>
+                        </div>
+                    </div>
+                </div>
+               
+            
+            
+            
+            
+            </div>
+
+
+            <!----Bottom Content End---------------------------------------------------------------------->   
+        
+            
+        
+
+        </div> <!--Container closing-->
+        <br>
+        <div class="container-md" style="text-align: center;">
+            <h1>That NOT all there's ton more activities that lies in every place in PALAWAN check out more places above to learn more exciting stuffs and discover the beauty of PALAWAN!!</h1>
+        </div>
+        <br>
+        
+        <div class="container-md" id="ftr">
+            <div class="row">
+                <div class="container-md">
+                    <img src="its more fun.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-md">
+                    <img src="itsmrfninplwn.jfif" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="container-md">
+                    <img src="dot.png" alt="">
+                </div>
+            </div>
+        </div>
+        
+        <div class="container-xxl" style="background-color: rgb(66, 66, 66);">
+            <div class="row">
+                <div class="col">
+                    <div class="container-sm">
+                    <p style="text-align: center; color: #fff;">All rights reserved 2023</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> <!--cnts closing-->   
+    <!------------------------------------------------------------------------------------------->    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+        crossorigin="anonymous"></script>
+    </body>
+
+
+</html>
